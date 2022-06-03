@@ -31,3 +31,18 @@ De forma individual, realiza lo siguiente:
       Formateando las anteriores variables en una variable llamada cadena_formateada
       cadena = “acitametaM ,5.8 ,otipeP ordeP”
       Para formatear ¡recuerda concatenar!
+
+### Mi primer programa en Python
+
+> > Consigna: Crear un programa para calcular la nota final del estudiante en base a dos exámenes, los exámenes cuentan con un porcentaje distinto de la nota final
+
+-   nota_1 cuenta como el 40% de la nota final
+-   nota_2 cuenta como el 60% de la nota final
+
+> > Aspectos a incluir en el entregable:
+
+-   Tener en cuenta los temas vistos en la clase 1: números, print, input, variables, operaciones matemáticas, cadena de texto.
+
+    > > Aspectos a tener en cuenta:
+
+-   Los datos deben guardarse en variables y deben ser dinámicos por medio de input.
