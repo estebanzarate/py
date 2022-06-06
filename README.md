@@ -185,3 +185,60 @@ Respuesta
 [3, 0, 1, sum(matriz[2]],
 [1, 4, 4, sum(matriz[3]]
 ]
+
+# Clase 3
+
+### Operadores relacionales
+
+1. En una lista encontraremos diferentes operaciones relacionales, calcular mentalmente el resultado de cada expresión y almacenarlo en una nueva lista que contendrá únicamente valores lógicos True y False.
+   expresiones = [
+   False == True,
+   10 >= 2*4,
+   33/3 == 11,
+   True > False,
+   True*5 == 2.5*2
+   ]
+
+### Operadores lógicos
+
+En una lista encontraremos diferentes operaciones lógicas. Calcular mentalmente el resultado de cada expresión y almacenarlo en una nueva lista la cual contendrá únicamente valores lógicos True y False.
+
+expresiones = [
+not False,
+not 3 == 5,
+33/3 == 11 and 5 > 2,
+True or False,
+True*5 == 2.5*2 or 123 >= 23,
+12 > 7 and True < False
+]
+
+### Expresiones anidadas
+
+A partir de dos variables llamadas NOMBRE y EDAD, debes crear una variable que almacene si se cumplen TODAS las siguientes condiciones, encadenando operadores lógicos en una sola línea:
+NOMBRE sea diferente de cuatro asteriscos “\*\*\*\*”
+EDAD sea mayor que 10 y a su vez menor que 18
+Que la longitud de NOMBRE sea mayor o igual a 3 pero a la vez menor que 10
+EDAD multiplicada por 4 sea mayor que 40
+Desde un input conseguir las variables:
+nombre = INPUT!!!
+edad = INPUT!!!!
+
+# Clase 4
+
+### Mayoría de edad
+
+1. Escribir un programa que le pregunte al usuario su edad y muestre por pantalla si es mayor de edad o no.
+
+-   Nota: Para preguntarle al usuario, recuerda usar input
+
+### Marvel vs CapCom
+
+Un curso se ha dividido en dos grupos: A y B de acuerdo al nombre y a una preferencia (Marvel o Capcom). El grupo A está formado por fans de Marvel con un nombre anterior a la M y los fans de Capcom con un nombre posterior a la N y el grupo B por el resto.
+
+1. Escribir un programa que pregunte al usuario su nombre y preferencia, y muestre por pantalla el grupo que le corresponde.
+   Ej:
+   ¿Cómo te llamas? Alan
+   ¿Cuál es tu preferencia (M o C)? C
+   Tu grupo es B
+
+-   Para preguntarle al usuario, recuerda usar input
