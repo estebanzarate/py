@@ -328,3 +328,28 @@ Inicialmente el diccionario es: animales = {"elefante": ""}
 
 1. Añade al diccionario las claves perro, tigre y mono con sus respectivos valores “Bobby”, “Peepe” y “homero”
 2. Modificá las claves elefante y delfin con los valores “Trompis”y “Manolo” respectivamente
+
+# Clase 7
+
+### Colecciones 1
+
+1. Utilizando todo lo que sabes sobre cadenas, listas y sus métodos internos, transforma este texto:
+   gordon lanzó su curva&strawberry ha fallado por un pie! -gritó Joe Castiglione&dos pies -le corrigió Troop&strawberry menea la cabeza como disgustado… -agrega el comentarista
+
+### Colecciones 2
+
+A partir de una lista realizar las siguientes tareas sin modificar la lista original:
+
+1. Borrar los elementos duplicados
+2. Ordenar la lista de mayor a menor
+3. Eliminar todos los números impares
+   ( for ---- if (%2==1) ---- pop, remove )
+4. Realizar una suma de todos los números que quedan
+   (sum(lista))
+5. Añadir como primer elemento de la lista la suma realizada insert(0, suma)
+6. Devolver la lista modificada
+7. Finalmente, después de ejecutar la función, comprueba que la suma de todos los números a partir del segundo, concuerda con el primer número de la lista
+
+lista = [29, -5, -12, 17, 5, 24, 5, 12, 23, 16, 12, 5, -12, 17]
+
+Nota: Recorda que para sumar todos los números de una lista puedes usar sum
