@@ -353,3 +353,18 @@ A partir de una lista realizar las siguientes tareas sin modificar la lista orig
 lista = [29, -5, -12, 17, 5, 24, 5, 12, 23, 16, 12, 5, -12, 17]
 
 Nota: Recorda que para sumar todos los números de una lista puedes usar sum
+
+# Clase 8
+
+### Mi mascota
+
+1. Crea un programa que pida por teclado (input) los datos de tu mascota y los mismos se guarden en un archivo que se llame miMascota.txt.
+
+EXTRA: Hacerlo con un for o un while para no repetir tanto…!!!
+
+### Curiosos por la información
+
+1. Descargar y guardar en sus Drive algún dato en formato csv de las fuentes que les dimos, o de cualquier otra, leerlos y agruparlos por alguna de las columnas, como hicimos en el ejemplo agrupando por “sede”.
+
+-   Datos ciudad de Buenos Aires: https://data.buenosaires.gob.ar/dataset/
+-   Datos Nación: https://datos.gob.ar/

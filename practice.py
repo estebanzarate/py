@@ -1,4 +1,18 @@
-numeros = {'uno': 1, 'dos': 2}
+f = open('clase8/miMascota.txt', 'r')
+content = f.read()
+print(content)
+f.close()
 
-print(numeros.pop('dos'))
-print(numeros)
+f = open('clase8/miMascota.txt', 'r')
+print(f.readline())
+f.close()
+
+f = open('clase8/miMascota.txt', 'r')
+for line in f.readlines():
+    print(line)
+f.close()
+
+f = open('clase8/miMascota.txt', 'r')
+f.seek(3)
+print(f.read())
+f.close()
