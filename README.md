@@ -392,3 +392,34 @@ EXTRA: Hacerlo con un for o un while para no repetir tanto…!!!
     > > Información a tener en cuenta al realizar el entregable:
 
 -   Se recuerda que los años bisiestos son múltiplos de 4, pero los múltiplos de 100 no lo son, aunque los múltiplos de 400 sí. Estos son algunos ejemplos de posibles respuestas: 2012 es bisiesto, 2010 no es bisiesto, 2000 es bisiesto, 1900 no es bisiesto.
+
+# Clase 10
+
+### Reloj
+
+1. Realiza una función que dependiendo de los parámetros que reciba: convierta a segundos o a horas.
+
+-   Si recibe un argumento, supone que son segundos y convierte a horas, minutos y segundos.
+-   Si recibe 3 argumentos, supone que son hora, minutos y segundos y los convierte a segundos.
+
+# Clase 11
+
+### Desafío de errores
+
+1. En la función de nuestro ejercicio hay un fallo potencial, averigua cuándo sucede y retorna el valor None en ese caso especial, en cualquier otro caso devuelve el resultado normal de la función.
+
+> > > def dividir(a, b):
+> > > return a/b
+
+Pista: Valor indeterminado
+
+### Desafío de excepciones
+
+1. Tomando la solución del ejercicio anterior anterior, en lugar de devolver None al dividir entre cero, tienes que capturar una excepción que muestre por pantalla EXACTAMENTE el mensaje: “No se puede dividir entre cero”; si falla el código
+
+> > > def dividir(a, b):
+> > > if b == 0:
+
+return None
+
+return a/b
